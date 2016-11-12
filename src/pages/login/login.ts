@@ -25,10 +25,11 @@ export class Login {
   }
   
   //equivilant to $scope.user = {};
-  user = {
-    email: "aaa@aaa.com",
-    password: "aaa"
-  };
+  user = {};
+  // {
+  //   email: "aaa@aaa.com",
+  //   password: "aaa"
+  // };
   
   //equivilant to $scope.signinForm = function(form) { ... };
   signinForm(form) {
